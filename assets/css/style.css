@@ -40,3 +40,25 @@ header {
 }
 
 
+@media screen and (min-width: 601px) {
+  .h2-resp {
+    font-size: 55px;
+    font-weight: bolder;
+  }
+  .h1-resp {
+    font-size: 6rem;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h2-resp {
+    
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .h1-resp {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+}
